@@ -1,0 +1,12 @@
+[build]
+  command = "pnpm build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# SPA: cualquier ruta desconocida la resuelve React Router en el cliente.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

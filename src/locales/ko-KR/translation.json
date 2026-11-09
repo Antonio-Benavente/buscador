@@ -1,0 +1,122 @@
+{
+  "app": {
+    "titulo": "영화·시리즈 검색"
+  },
+  "comunes": {
+    "cargando": "불러오는 중...",
+    "volver": "뒤로",
+    "reintentar": "다시 시도",
+    "inicio": "홈",
+    "anterior": "이전",
+    "siguiente": "다음",
+    "sinTitulo": "제목 없음"
+  },
+  "header": {
+    "logo": "Buscador",
+    "buscar": "검색",
+    "peliculas": "영화",
+    "series": "시리즈",
+    "personas": "Personas",
+    "idioma": "언어",
+    "menu": "메뉴",
+    "navegacion": "주요 탐색"
+  },
+  "home": {
+    "enCartelera": "상영 중인 영화",
+    "proximamente": "개봉 예정 영화",
+    "peliculasPopulares": "인기 영화",
+    "seriesPopulares": "인기 시리즈",
+    "heroSubtitulo": "영화, 시리즈, 인물을 검색하거나 지금 인기 있는 콘텐츠를 살펴보세요."
+  },
+  "listas": {
+    "secciones": {
+      "populares": "인기",
+      "enCartelera": "상영 중",
+      "proximamente": "개봉 예정",
+      "mejorValoradas": "높은 평점",
+      "enEmision": "방영 중",
+      "alAireHoy": "오늘 방영"
+    }
+  },
+  "busqueda": {
+    "titulo": "검색",
+    "label": "영화, 시리즈, 인물 검색",
+    "placeholder": "영화, 시리즈, 인물 검색...",
+    "limpiar": "검색어 지우기",
+    "error": "검색 중 오류가 발생했습니다. 다시 시도해 주세요.",
+    "recuento_other": "'{{query}}' 검색 결과 {{count}}개",
+    "sinResultados": "'{{query}}'에 대한 결과가 없습니다.",
+    "persona": "인물",
+    "minCaracteres": "검색하려면 2자 이상 입력하세요."
+  },
+  "error": {
+    "carga": "데이터를 불러오지 못했습니다. 다시 시도해 주세요.",
+    "titulo": "문제가 발생했습니다",
+    "descripcion": "예상치 못한 오류가 발생했습니다. 페이지를 새로 고치거나 홈으로 돌아가세요.",
+    "recargar": "새로 고침"
+  },
+  "paginacion": {
+    "anterior": "이전 페이지",
+    "siguiente": "다음 페이지",
+    "actual": "{{page}}페이지 / 전체 {{total}}페이지"
+  },
+  "detalles": {
+    "sinImagen": "이미지 없음",
+    "sinopsis": "줄거리",
+    "sinSinopsis": "줄거리가 없습니다.",
+    "fechaEstreno": "개봉일:",
+    "duracion": "상영 시간:",
+    "minutos": "{{min}}분",
+    "primeraEmision": "첫 방영일: {{date}}",
+    "ultimaEmision": "마지막 방영일: {{date}}",
+    "estado": "상태: {{status}}",
+    "temporadas": "시즌: {{count}}",
+    "episodios": "에피소드: {{count}}",
+    "generos": "장르",
+    "productoras": "제작사",
+    "paginaOficial": "공식 사이트:",
+    "visitar": "방문하기",
+    "verTrailer": "예고편 보기",
+    "sinTrailer": "예고편이 없습니다.",
+    "reparto": "출연진",
+    "peliculasRecomendadas": "추천 영화",
+    "seriesRecomendadas": "추천 시리즈",
+    "trailerDe": "{{title}} 예고편",
+    "cerrarTrailer": "예고편 닫기",
+    "pelicula": "영화",
+    "serie": "시리즈",
+    "persona": "Persona",
+    "biografia": "Biografía",
+    "sinBiografia": "No hay biografía disponible.",
+    "fechaNacimiento": "Fecha de nacimiento:",
+    "fechaFallecimiento": "Fecha de fallecimiento:",
+    "lugarNacimiento": "Lugar de nacimiento:",
+    "departamento": "Departamento:",
+    "tambienConocidoComo": "También conocido como:",
+    "creditos": "Créditos"
+  },
+  "departamentos": {
+    "Acting": "연기",
+    "Crew": "스태프",
+    "Production": "제작",
+    "Directing": "연출",
+    "Writing": "각본",
+    "Art": "미술",
+    "Sound": "사운드",
+    "Camera": "촬영",
+    "Visual Effects": "시각 효과",
+    "Editing": "편집",
+    "Costume & Make-up": "의상·분장",
+    "Lighting": "조명",
+    "Music": "음악"
+  },
+  "noEncontrado": {
+    "titulo": "페이지를 찾을 수 없습니다",
+    "descripcion": "찾으시는 페이지가 존재하지 않거나 이동되었습니다."
+  },
+  "footer": {
+    "region": "국가",
+    "arriba": "맨 위로",
+    "avisoTmdb": "이 제품은 TMDB API를 사용하지만 TMDB의 보증이나 인증을 받지 않았습니다."
+  }
+}

@@ -1,0 +1,107 @@
+.mediaCard {
+
+  flex: 0 0 auto;
+  width: 100%;
+  max-width: 260px;
+
+  display: flex;
+  flex-direction: column;
+
+  border-radius: var(--radius);
+  transition: background var(--t) var(--ease);
+}
+
+.mediaCard:hover {
+  background: var(--card-hover);
+}
+
+.mediaCardLink {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  color: inherit;
+  text-decoration: none;
+}
+
+.posterContainer {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 250 / 355;
+  overflow: hidden;
+  border-radius: var(--radius);
+  background: var(--code-bg);
+}
+
+.poster {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--t) var(--ease);
+}
+
+.mediaCard:hover .poster {
+  transform: scale(1.06);
+}
+
+.mediaCard:hover .cardTitle {
+  color: var(--text-h);
+}
+
+.cardTitle {
+  margin: 10px 0 0;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+
+  min-height: 2.6em;
+
+  font-family: var(--heading);
+  font-size: 1.35rem;
+  line-height: 1.3;
+  text-align: center;
+  transition: color var(--t-fast) var(--ease);
+}
+
+.cardMeta {
+  margin-top: 4px;
+  color: var(--text);
+  font-size: 0.82rem;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+
+.carouselContainer .mediaCard {
+  max-width: var(--card-w-carousel);
+}
+
+.carouselContainer .cardMeta {
+  display: none;
+}
+
+.carouselContainer .cardTitle {
+  margin-top: 8px;
+  font-size: 1.15rem;
+  min-height: 2.4em;
+}
+
+@media (max-width: 600px) {
+  .cardTitle {
+    font-size: 1.15rem;
+  }
+
+  .carouselContainer .cardTitle {
+    font-size: 1.05rem;
+  }
+
+  .cardMeta {
+    font-size: 0.78rem;
+  }
+
+  .carouselContainer .mediaCard {
+    max-width: var(--card-w-carousel);
+  }
+}

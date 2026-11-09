@@ -1,0 +1,123 @@
+{
+  "app": {
+    "titulo": "Movies and TV Shows Search"
+  },
+  "comunes": {
+    "cargando": "Loading...",
+    "volver": "Back",
+    "reintentar": "Retry",
+    "inicio": "Home",
+    "anterior": "Previous",
+    "siguiente": "Next",
+    "sinTitulo": "No title"
+  },
+  "header": {
+    "logo": "Buscador",
+    "buscar": "Search",
+    "peliculas": "Movies",
+    "series": "TV Shows",
+    "personas": "People",
+    "idioma": "Language",
+    "menu": "Menu",
+    "navegacion": "Main navigation"
+  },
+  "home": {
+    "enCartelera": "Now Playing Movies",
+    "proximamente": "Upcoming Movies",
+    "peliculasPopulares": "Popular Movies",
+    "seriesPopulares": "Popular TV Shows",
+    "heroSubtitulo": "Search movies, TV shows and people, or explore what's trending right now."
+  },
+  "listas": {
+    "secciones": {
+      "populares": "Popular",
+      "enCartelera": "Now playing",
+      "proximamente": "Upcoming",
+      "mejorValoradas": "Top rated",
+      "enEmision": "On the air",
+      "alAireHoy": "Airing today"
+    }
+  },
+  "busqueda": {
+    "titulo": "Search",
+    "label": "Search movies, TV shows or people",
+    "placeholder": "Search movies, TV shows or people...",
+    "limpiar": "Clear search",
+    "error": "Something went wrong while searching. Please try again.",
+    "recuento_one": "{{count}} result for '{{query}}'",
+    "recuento_other": "{{count}} results for '{{query}}'",
+    "sinResultados": "No results found for '{{query}}'.",
+    "persona": "Person",
+    "minCaracteres": "Type at least 2 characters to search."
+  },
+  "error": {
+    "carga": "The data could not be loaded. Please try again.",
+    "titulo": "Something went wrong",
+    "descripcion": "An unexpected error occurred. You can reload the page or go back to the home page.",
+    "recargar": "Reload"
+  },
+  "paginacion": {
+    "anterior": "Previous page",
+    "siguiente": "Next page",
+    "actual": "Page {{page}} of {{total}}"
+  },
+  "detalles": {
+    "sinImagen": "No image",
+    "sinopsis": "Synopsis",
+    "sinSinopsis": "No synopsis available.",
+    "fechaEstreno": "Release date:",
+    "duracion": "Runtime:",
+    "minutos": "{{min}} min",
+    "primeraEmision": "First air date: {{date}}",
+    "ultimaEmision": "Last air date: {{date}}",
+    "estado": "Status: {{status}}",
+    "temporadas": "Seasons: {{count}}",
+    "episodios": "Episodes: {{count}}",
+    "generos": "Genres",
+    "productoras": "Production companies",
+    "paginaOficial": "Official website:",
+    "visitar": "Visit",
+    "verTrailer": "Watch trailer",
+    "sinTrailer": "No trailer available.",
+    "reparto": "Cast",
+    "peliculasRecomendadas": "Recommended movies",
+    "seriesRecomendadas": "Recommended TV shows",
+    "trailerDe": "Trailer for {{title}}",
+    "cerrarTrailer": "Close trailer",
+    "pelicula": "Movie",
+    "serie": "TV Show",
+    "persona": "Person",
+    "biografia": "Biography",
+    "sinBiografia": "No biography available.",
+    "fechaNacimiento": "Date of birth:",
+    "fechaFallecimiento": "Date of death:",
+    "lugarNacimiento": "Place of birth:",
+    "departamento": "Department:",
+    "tambienConocidoComo": "Also known as:",
+    "creditos": "Credits"
+  },
+  "departamentos": {
+    "Acting": "Acting",
+    "Crew": "Crew",
+    "Production": "Production",
+    "Directing": "Directing",
+    "Writing": "Writing",
+    "Art": "Art",
+    "Sound": "Sound",
+    "Camera": "Camera",
+    "Visual Effects": "Visual Effects",
+    "Editing": "Editing",
+    "Costume & Make-up": "Costume & Make-up",
+    "Lighting": "Lighting",
+    "Music": "Music"
+  },
+  "noEncontrado": {
+    "titulo": "Page not found",
+    "descripcion": "The page you are looking for does not exist or has been moved."
+  },
+  "footer": {
+    "region": "Country",
+    "arriba": "Back to top",
+    "avisoTmdb": "This product uses the TMDB API but is not endorsed or certified by TMDB."
+  }
+}

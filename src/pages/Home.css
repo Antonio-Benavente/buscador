@@ -1,0 +1,54 @@
+.hero {
+  min-height: 85vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-bottom: 1px solid var(--border);
+}
+
+.heroInner {
+  max-width: 900px;
+  text-align: center;
+}
+
+.heroTitle {
+  font-family: var(--titles);
+  font-size: clamp(1.9rem, 6vw, 3.4rem);
+  font-weight: 700;
+  color: var(--text-h);
+  margin-bottom: 12px;
+}
+
+.heroSubtitle {
+  max-width: 56ch;
+  margin: 0 auto 28px;
+  font-size: clamp(1rem, 2.4vw, 1.15rem);
+}
+
+.heroInner .searchBar {
+  max-width: 620px;
+  margin-inline: auto;
+}
+
+.homeSection {
+  margin-top: 20px;
+}
+
+.homeSection:last-child {
+  margin-bottom: 20px;
+}
+
+.homeSectionAire {
+  margin-top: 30px;
+}
+
+.sectionHead {
+  margin-bottom: 12px;
+}
+
+.sectionHead h2 {
+  font-size: clamp(1.25rem, 3.4vw, 1.9rem);
+  color: var(--text-h);
+}

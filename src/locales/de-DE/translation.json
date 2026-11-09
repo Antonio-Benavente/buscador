@@ -1,0 +1,123 @@
+{
+  "app": {
+    "titulo": "Films- und Seriensuche"
+  },
+  "comunes": {
+    "cargando": "Wird geladen...",
+    "volver": "Zurück",
+    "reintentar": "Erneut versuchen",
+    "inicio": "Startseite",
+    "anterior": "Vorherige",
+    "siguiente": "Nächste",
+    "sinTitulo": "Ohne Titel"
+  },
+  "header": {
+    "logo": "Buscador",
+    "buscar": "Suchen",
+    "peliculas": "Filme",
+    "series": "Serien",
+    "personas": "Personas",
+    "idioma": "Sprache",
+    "menu": "Menü",
+    "navegacion": "Hauptnavigation"
+  },
+  "home": {
+    "enCartelera": "Aktuell im Kino",
+    "proximamente": "Demnächst im Kino",
+    "peliculasPopulares": "Beliebte Filme",
+    "seriesPopulares": "Beliebte Serien",
+    "heroSubtitulo": "Suche nach Filmen, Serien und Personen oder entdecke, was gerade angesagt ist."
+  },
+  "listas": {
+    "secciones": {
+      "populares": "Beliebt",
+      "enCartelera": "Aktuell im Kino",
+      "proximamente": "Demnächst im Kino",
+      "mejorValoradas": "Bestbewertet",
+      "enEmision": "Im Fernsehen",
+      "alAireHoy": "Heute im Fernsehen"
+    }
+  },
+  "busqueda": {
+    "titulo": "Suche",
+    "label": "Filme, Serien oder Personen suchen",
+    "placeholder": "Filme, Serien oder Personen suchen...",
+    "limpiar": "Suche löschen",
+    "error": "Bei der Suche ist ein Fehler aufgetreten. Versuche es erneut.",
+    "recuento_one": "{{count}} Ergebnis für '{{query}}'",
+    "recuento_other": "{{count}} Ergebnisse für '{{query}}'",
+    "sinResultados": "Keine Ergebnisse für '{{query}}' gefunden.",
+    "persona": "Person",
+    "minCaracteres": "Gib mindestens 2 Zeichen ein, um zu suchen."
+  },
+  "error": {
+    "carga": "Die Daten konnten nicht geladen werden. Versuche es erneut.",
+    "titulo": "Etwas ist schiefgelaufen",
+    "descripcion": "Es ist ein unerwarteter Fehler aufgetreten. Du kannst die Seite neu laden oder zur Startseite zurückkehren.",
+    "recargar": "Neu laden"
+  },
+  "paginacion": {
+    "anterior": "Vorherige Seite",
+    "siguiente": "Nächste Seite",
+    "actual": "Seite {{page}} von {{total}}"
+  },
+  "detalles": {
+    "sinImagen": "Kein Bild",
+    "sinopsis": "Handlung",
+    "sinSinopsis": "Keine Handlung verfügbar.",
+    "fechaEstreno": "Erscheinungsdatum:",
+    "duracion": "Laufzeit:",
+    "minutos": "{{min}} Min.",
+    "primeraEmision": "Erstausstrahlung: {{date}}",
+    "ultimaEmision": "Letzte Ausstrahlung: {{date}}",
+    "estado": "Status: {{status}}",
+    "temporadas": "Staffeln: {{count}}",
+    "episodios": "Folgen: {{count}}",
+    "generos": "Genres",
+    "productoras": "Produktionsfirmen",
+    "paginaOficial": "Offizielle Website:",
+    "visitar": "Besuchen",
+    "verTrailer": "Trailer ansehen",
+    "sinTrailer": "Kein Trailer verfügbar.",
+    "reparto": "Besetzung",
+    "peliculasRecomendadas": "Empfohlene Filme",
+    "seriesRecomendadas": "Empfohlene Serien",
+    "trailerDe": "Trailer zu {{title}}",
+    "cerrarTrailer": "Trailer schließen",
+    "pelicula": "Film",
+    "serie": "Serie",
+    "persona": "Persona",
+    "biografia": "Biografía",
+    "sinBiografia": "No hay biografía disponible.",
+    "fechaNacimiento": "Fecha de nacimiento:",
+    "fechaFallecimiento": "Fecha de fallecimiento:",
+    "lugarNacimiento": "Lugar de nacimiento:",
+    "departamento": "Departamento:",
+    "tambienConocidoComo": "También conocido como:",
+    "creditos": "Créditos"
+  },
+  "departamentos": {
+    "Acting": "Schauspiel",
+    "Crew": "Crew",
+    "Production": "Produktion",
+    "Directing": "Regie",
+    "Writing": "Drehbuch",
+    "Art": "Ausstattung",
+    "Sound": "Ton",
+    "Camera": "Kamera",
+    "Visual Effects": "Visuelle Effekte",
+    "Editing": "Schnitt",
+    "Costume & Make-up": "Kostüm & Maskenbild",
+    "Lighting": "Licht",
+    "Music": "Musik"
+  },
+  "noEncontrado": {
+    "titulo": "Seite nicht gefunden",
+    "descripcion": "Die gesuchte Seite existiert nicht oder wurde verschoben."
+  },
+  "footer": {
+    "region": "Land",
+    "arriba": "Nach oben",
+    "avisoTmdb": "Dieses Produkt nutzt die TMDB-API, wird aber nicht von TMDB unterstützt oder zertifiziert."
+  }
+}

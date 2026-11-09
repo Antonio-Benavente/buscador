@@ -1,0 +1,24 @@
+.sectionTitle {
+  padding-top: clamp(24px, 5vw, 48px);
+  margin-bottom: clamp(18px, 3vw, 28px);
+
+  font-family: var(--titles);
+  font-size: clamp(1.4rem, 4vw, 2.2rem);
+  color: var(--text-h);
+  text-align: center;
+}
+
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 190px), 1fr));
+  gap: 26px clamp(10px, 1.4vw, 18px);
+  justify-items: center;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .cardGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px 10px;
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "app": {
+    "titulo": "Buscador de Filmes e Séries"
+  },
+  "comunes": {
+    "cargando": "Carregando...",
+    "volver": "Voltar",
+    "reintentar": "Tentar novamente",
+    "inicio": "Início",
+    "anterior": "Anterior",
+    "siguiente": "Próximo",
+    "sinTitulo": "Sem título"
+  },
+  "header": {
+    "logo": "Buscador",
+    "buscar": "Buscar",
+    "peliculas": "Filmes",
+    "series": "Séries",
+    "personas": "Personas",
+    "idioma": "Idioma",
+    "menu": "Menu",
+    "navegacion": "Navegação principal"
+  },
+  "home": {
+    "enCartelera": "Filmes em cartaz",
+    "proximamente": "Próximos lançamentos",
+    "peliculasPopulares": "Filmes populares",
+    "seriesPopulares": "Séries populares",
+    "heroSubtitulo": "Busque filmes, séries e pessoas, ou explore o que está em alta no momento."
+  },
+  "listas": {
+    "secciones": {
+      "populares": "Populares",
+      "enCartelera": "Nos cinemas",
+      "proximamente": "Em breve",
+      "mejorValoradas": "Bem avaliados",
+      "enEmision": "No ar",
+      "alAireHoy": "No ar hoje"
+    }
+  },
+  "busqueda": {
+    "titulo": "Buscar",
+    "label": "Buscar filmes, séries ou pessoas",
+    "placeholder": "Busque filmes, séries ou pessoas...",
+    "limpiar": "Limpar busca",
+    "error": "Ocorreu um erro ao buscar. Tente novamente.",
+    "recuento_one": "{{count}} resultado para '{{query}}'",
+    "recuento_many": "{{count}} resultados para '{{query}}'",
+    "recuento_other": "{{count}} resultados para '{{query}}'",
+    "sinResultados": "Nenhum resultado encontrado para '{{query}}'.",
+    "persona": "Pessoa",
+    "minCaracteres": "Digite pelo menos 2 caracteres para buscar."
+  },
+  "error": {
+    "carga": "Não foi possível carregar os dados. Tente novamente.",
+    "titulo": "Algo deu errado",
+    "descripcion": "Ocorreu um erro inesperado. Você pode recarregar a página ou voltar para a página inicial.",
+    "recargar": "Recarregar"
+  },
+  "paginacion": {
+    "anterior": "Página anterior",
+    "siguiente": "Próxima página",
+    "actual": "Página {{page}} de {{total}}"
+  },
+  "detalles": {
+    "sinImagen": "Sem imagem",
+    "sinopsis": "Sinopse",
+    "sinSinopsis": "Nenhuma sinopse disponível.",
+    "fechaEstreno": "Data de lançamento:",
+    "duracion": "Duração:",
+    "minutos": "{{min}} min",
+    "primeraEmision": "Primeira exibição: {{date}}",
+    "ultimaEmision": "Última exibição: {{date}}",
+    "estado": "Status: {{status}}",
+    "temporadas": "Temporadas: {{count}}",
+    "episodios": "Episódios: {{count}}",
+    "generos": "Gêneros",
+    "productoras": "Produtoras",
+    "paginaOficial": "Site oficial:",
+    "visitar": "Visitar",
+    "verTrailer": "Assistir ao trailer",
+    "sinTrailer": "Nenhum trailer disponível.",
+    "reparto": "Elenco",
+    "peliculasRecomendadas": "Filmes recomendados",
+    "seriesRecomendadas": "Séries recomendadas",
+    "trailerDe": "Trailer de {{title}}",
+    "cerrarTrailer": "Fechar trailer",
+    "pelicula": "Filme",
+    "serie": "Série",
+    "persona": "Persona",
+    "biografia": "Biografía",
+    "sinBiografia": "No hay biografía disponible.",
+    "fechaNacimiento": "Fecha de nacimiento:",
+    "fechaFallecimiento": "Fecha de fallecimiento:",
+    "lugarNacimiento": "Lugar de nacimiento:",
+    "departamento": "Departamento:",
+    "tambienConocidoComo": "También conocido como:",
+    "creditos": "Créditos"
+  },
+  "departamentos": {
+    "Acting": "Interpretação",
+    "Crew": "Equipe técnica",
+    "Production": "Produção",
+    "Directing": "Direção",
+    "Writing": "Roteiro",
+    "Art": "Arte",
+    "Sound": "Som",
+    "Camera": "Câmera",
+    "Visual Effects": "Efeitos visuais",
+    "Editing": "Edição",
+    "Costume & Make-up": "Figurino e maquiagem",
+    "Lighting": "Iluminação",
+    "Music": "Música"
+  },
+  "noEncontrado": {
+    "titulo": "Página não encontrada",
+    "descripcion": "A página que você procura não existe ou foi movida."
+  },
+  "footer": {
+    "region": "País",
+    "arriba": "Voltar ao topo",
+    "avisoTmdb": "Este produto usa a API da TMDB, mas não é endossado nem certificado pela TMDB."
+  }
+}

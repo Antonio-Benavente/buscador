@@ -1,0 +1,91 @@
+.containerLoading {
+  width: 100%;
+  min-height: 45vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+.containerLoading p {
+  font-size: 0.9rem;
+}
+
+.spinner {
+  width: 72px;
+  height: 72px;
+  border: 8px solid var(--spinner-border);
+  border-radius: 50%;
+  border-left-color: transparent;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.skeletonCard {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.skeletonPoster {
+  width: 100%;
+  aspect-ratio: 250 / 355;
+}
+
+.skeletonLine {
+  height: 14px;
+  width: 100%;
+}
+
+.skeletonLineShort {
+  width: 55%;
+  height: 11px;
+}
+
+.skeletonGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 190px), 1fr));
+  gap: 22px clamp(10px, 1.4vw, 18px);
+  width: 100%;
+}
+
+.skeletonRow {
+  display: flex;
+  gap: clamp(10px, 1.6vw, 18px);
+  width: 100%;
+  overflow: hidden;
+}
+
+.skeletonRow > .skeletonCard {
+  flex: 0 0 var(--card-w-carousel);
+}
+
+@media (max-width: 600px) {
+  .spinner {
+    width: 56px;
+    height: 56px;
+    border-width: 7px;
+  }
+
+  .skeletonGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px 10px;
+  }
+
+  .skeletonRow > .skeletonCard {
+    flex: 0 0 var(--card-w-carousel);
+  }
+}

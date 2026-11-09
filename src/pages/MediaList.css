@@ -1,0 +1,36 @@
+.seccionesListado {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 8px;
+
+  width: 100%;
+  margin: 0 auto clamp(16px, 3vw, 24px);
+}
+
+.seccionListado {
+  padding: 6px 16px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+
+  background: var(--bg);
+  color: var(--text);
+  font-size: 0.92rem;
+  text-decoration: none;
+
+  transition:
+    border-color var(--t-fast) var(--ease),
+    background var(--t-fast) var(--ease),
+    color var(--t-fast) var(--ease);
+}
+
+.seccionListado:hover {
+  border-color: var(--text-h);
+  color: var(--text-h);
+}
+
+.seccionListado.activo {
+  background: var(--accent-bg);
+  border-color: var(--accent-border);
+  color: var(--accent);
+}

@@ -1,0 +1,17 @@
+.containerError {
+  width: 100%;
+  min-height: 50vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+  padding: 24px var(--gutter);
+  text-align: center;
+}
+
+.containerError p {
+  max-width: 46ch;
+}

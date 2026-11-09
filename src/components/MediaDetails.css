@@ -1,0 +1,316 @@
+.detailPage {
+  display: flex;
+  flex-direction: column;
+}
+
+.detailHero {
+  position: relative;
+  isolation: isolate;
+
+  min-height: clamp(340px, 48vw, 600px);
+  display: flex;
+  align-items: flex-end;
+
+  padding-top: clamp(56px, 10vw, 90px);
+}
+
+.detailBackdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+
+  width: 100%;
+  object-fit: cover;
+
+  -webkit-mask-image: linear-gradient(to bottom, #000 55%, transparent 100%);
+  mask-image: linear-gradient(to bottom, #000 55%, transparent 100%);
+}
+
+.detailIntroWrap {
+  width: 100%;
+  padding-inline: var(--gutter);
+}
+
+.detailIntro {
+  width: 100%;
+  max-width: var(--max-w);
+  margin-inline: auto;
+
+  display: flex;
+  align-items: flex-start;
+  gap: clamp(16px, 3vw, 32px);
+  padding: clamp(14px, 2.5vw, 22px);
+  box-sizing: border-box;
+
+  background: var(--overlay);
+  border-radius: var(--radius-lg);
+  color: var(--on-overlay);
+}
+
+.detailContent {
+  flex: 1 1 auto;
+  min-width: 0;
+
+  display: flex;
+  flex-direction: column;
+  gap: clamp(20px, 3vw, 34px);
+}
+
+.detailPoster {
+  flex: 0 0 auto;
+  width: clamp(130px, 18vw, 220px);
+  height: auto;
+  aspect-ratio: 250 / 355;
+  object-fit: cover;
+  border-radius: var(--radius);
+}
+
+.detailPosterMissing {
+  flex: 0 0 auto;
+  width: clamp(130px, 18vw, 220px);
+  aspect-ratio: 250 / 355;
+
+  display: grid;
+  place-items: center;
+  padding: 12px;
+
+  border: 1px dashed var(--overlay);
+  border-radius: var(--radius);
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+.detailHeadline {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.detailHeadline h1 {
+  font-family: var(--titles);
+  font-size: clamp(1.6rem, 5vw, 3rem);
+  font-weight: 700;
+}
+
+.detailFacts {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 18px;
+  font-size: 0.9rem;
+}
+
+.detailFacts strong {
+  font-weight: 700;
+}
+
+.detailSubheading {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  opacity: 0.75;
+}
+
+.detailOverview {
+  max-width: 72ch;
+}
+
+.detailGenres {
+  list-style: none;
+}
+
+.detailHero .chip {
+  border-color: currentColor;
+  opacity: 0.85;
+}
+
+.detailActions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+
+.detailHero .btn {
+  background: transparent;
+  border-color: currentColor;
+  color: inherit;
+}
+
+.detailHero .btn:hover {
+  background: var(--overlay);
+}
+
+.detailNote {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.detailHeroPlain {
+  min-height: 0;
+
+  padding-top: clamp(56px, 6vw, 76px);
+  padding-bottom: clamp(20px, 3vw, 32px);
+}
+
+.detailBiography {
+  max-width: 80ch;
+  white-space: pre-line;
+}
+
+.detailSection {
+  min-width: 0;
+}
+
+.detailSection h2 {
+  margin-bottom: 14px;
+  font-size: clamp(1.1rem, 2.6vw, 1.45rem);
+  color: inherit;
+}
+
+.castCard {
+  flex: 0 0 auto;
+  width: clamp(120px, 15vw, 160px);
+
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  color: inherit;
+  text-decoration: none;
+}
+
+.castCardImg {
+  width: 100%;
+  aspect-ratio: 185 / 278;
+  object-fit: cover;
+  border-radius: var(--radius);
+
+  transition: transform var(--t) var(--ease);
+}
+
+.castCard:hover .castCardImg {
+  transform: scale(1.05);
+}
+
+.castCardName {
+  margin-top: 6px;
+  font-size: 0.9rem;
+  line-height: 1.3;
+  text-align: center;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  min-height: 2.6em;
+}
+
+.castCard:hover .castCardName {
+  color: var(--text-h);
+}
+
+.castCardRole {
+  font-size: 0.78rem;
+  line-height: 1.3;
+  opacity: 0.75;
+  text-align: center;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  min-height: 2.6em;
+}
+
+.modalOverlay {
+  position: fixed;
+  inset: 0;
+  background: var(--overlay-strong);
+  z-index: 1000;
+
+  display: grid;
+  place-items: center;
+  padding: var(--gutter);
+}
+
+.modalTrailer {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  aspect-ratio: 16 / 9;
+  background: var(--modal-bg);
+  border-radius: var(--radius);
+}
+
+.modalTrailer iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: inherit;
+}
+
+.closeModal {
+  position: absolute;
+  top: -46px;
+  right: -35px;
+  z-index: 1;
+
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+
+  border-radius: 50%;
+  background: var(--overlay-strong);
+  color: var(--on-overlay);
+  font-size: 1.6rem;
+  line-height: 1;
+  padding-bottom: 3px;
+}
+
+@media (max-width: 700px) {
+
+  .closeModal {
+    right: 0;
+  }
+
+  .detailHero {
+    min-height: 0;
+    padding-top: 0;
+  }
+
+  .detailIntroWrap {
+    padding: 0;
+  }
+
+  .detailIntro {
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0;
+    text-align: center;
+  }
+
+  .detailContent {
+    width: 100%;
+  }
+
+  .detailBiography {
+    text-align: left;
+  }
+
+  .detailFacts {
+    justify-content: center;
+  }
+
+  .detailIntro .chipRow {
+    justify-content: center;
+  }
+
+  .detailActions {
+    justify-content: center;
+  }
+}

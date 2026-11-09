@@ -1,0 +1,48 @@
+.searchPage {
+  padding-bottom: 24px;
+}
+
+.searchPageInicio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  min-height: calc(100svh - var(--header-h));
+  padding: 0 0 24px;
+}
+
+.searchPageInicio .sectionTitle {
+  padding-top: 0;
+}
+
+.searchPage .searchBar {
+  max-width: 720px;
+  margin-inline: auto;
+}
+
+.searchHint {
+  max-width: 720px;
+  margin: 12px auto 0;
+  font-size: 0.88rem;
+  text-align: center;
+}
+
+.searchResultsTitle {
+  margin: clamp(24px, 4vw, 36px) 0 clamp(16px, 3vw, 24px);
+  font-size: clamp(1.1rem, 2.6vw, 1.4rem);
+  color: var(--text-h);
+}
+
+.searchMessage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+
+  margin: clamp(32px, 6vw, 56px) auto;
+  padding: 0 var(--gutter);
+  max-width: 60ch;
+
+  text-align: center;
+}

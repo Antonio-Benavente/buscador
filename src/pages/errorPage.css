@@ -1,0 +1,35 @@
+.containerErrorPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  min-height: 65vh;
+
+  padding: 24px var(--gutter);
+  text-align: center;
+}
+
+.containerErrorPage img {
+  width: clamp(160px, 45vw, 230px);
+  height: auto;
+}
+
+.containerErrorPage h1 {
+  font-family: var(--titles);
+  font-size: clamp(1.4rem, 5vw, 2.2rem);
+  font-weight: normal;
+  color: var(--text-h);
+}
+
+.containerErrorPageTexto {
+  max-width: 48ch;
+  line-height: 1.55;
+}
+
+.containerErrorPageAcciones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}

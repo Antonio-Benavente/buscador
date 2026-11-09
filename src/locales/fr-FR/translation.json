@@ -1,0 +1,124 @@
+{
+  "app": {
+    "titulo": "Recherche de films et de séries"
+  },
+  "comunes": {
+    "cargando": "Chargement...",
+    "volver": "Retour",
+    "reintentar": "Réessayer",
+    "inicio": "Accueil",
+    "anterior": "Précédent",
+    "siguiente": "Suivant",
+    "sinTitulo": "Sans titre"
+  },
+  "header": {
+    "logo": "Buscador",
+    "buscar": "Rechercher",
+    "peliculas": "Films",
+    "series": "Séries",
+    "personas": "Personas",
+    "idioma": "Langue",
+    "menu": "Menu",
+    "navegacion": "Navigation principale"
+  },
+  "home": {
+    "enCartelera": "Films à l'affiche",
+    "proximamente": "Films à venir",
+    "peliculasPopulares": "Films populaires",
+    "seriesPopulares": "Séries populaires",
+    "heroSubtitulo": "Recherchez des films, des séries et des personnes, ou découvrez les tendances du moment."
+  },
+  "listas": {
+    "secciones": {
+      "populares": "Populaires",
+      "enCartelera": "À l'affiche",
+      "proximamente": "Prochainement",
+      "mejorValoradas": "Les mieux notés",
+      "enEmision": "En cours de diffusion",
+      "alAireHoy": "Diffusés aujourd'hui"
+    }
+  },
+  "busqueda": {
+    "titulo": "Rechercher",
+    "label": "Rechercher des films, des séries ou des personnes",
+    "placeholder": "Rechercher des films, séries ou personnes...",
+    "limpiar": "Effacer la recherche",
+    "error": "Une erreur est survenue lors de la recherche. Veuillez réessayer.",
+    "recuento_one": "{{count}} résultat pour '{{query}}'",
+    "recuento_many": "{{count}} résultats pour '{{query}}'",
+    "recuento_other": "{{count}} résultats pour '{{query}}'",
+    "sinResultados": "Aucun résultat pour '{{query}}'.",
+    "persona": "Personne",
+    "minCaracteres": "Saisissez au moins 2 caractères pour lancer la recherche."
+  },
+  "error": {
+    "carga": "Impossible de charger les données. Veuillez réessayer.",
+    "titulo": "Une erreur est survenue",
+    "descripcion": "Une erreur inattendue s'est produite. Tu peux recharger la page ou revenir à l'accueil.",
+    "recargar": "Recharger"
+  },
+  "paginacion": {
+    "anterior": "Page précédente",
+    "siguiente": "Page suivante",
+    "actual": "Page {{page}} sur {{total}}"
+  },
+  "detalles": {
+    "sinImagen": "Pas d'image",
+    "sinopsis": "Synopsis",
+    "sinSinopsis": "Aucun synopsis disponible.",
+    "fechaEstreno": "Date de sortie :",
+    "duracion": "Durée :",
+    "minutos": "{{min}} min",
+    "primeraEmision": "Première diffusion : {{date}}",
+    "ultimaEmision": "Dernière diffusion : {{date}}",
+    "estado": "Statut : {{status}}",
+    "temporadas": "Saisons : {{count}}",
+    "episodios": "Épisodes : {{count}}",
+    "generos": "Genres",
+    "productoras": "Sociétés de production",
+    "paginaOficial": "Site officiel :",
+    "visitar": "Visiter",
+    "verTrailer": "Voir la bande-annonce",
+    "sinTrailer": "Aucune bande-annonce disponible.",
+    "reparto": "Distribution",
+    "peliculasRecomendadas": "Films recommandés",
+    "seriesRecomendadas": "Séries recommandées",
+    "trailerDe": "Bande-annonce de {{title}}",
+    "cerrarTrailer": "Fermer la bande-annonce",
+    "pelicula": "Film",
+    "serie": "Série",
+    "persona": "Persona",
+    "biografia": "Biografía",
+    "sinBiografia": "No hay biografía disponible.",
+    "fechaNacimiento": "Fecha de nacimiento:",
+    "fechaFallecimiento": "Fecha de fallecimiento:",
+    "lugarNacimiento": "Lugar de nacimiento:",
+    "departamento": "Departamento:",
+    "tambienConocidoComo": "También conocido como:",
+    "creditos": "Créditos"
+  },
+  "departamentos": {
+    "Acting": "Interprétation",
+    "Crew": "Équipe technique",
+    "Production": "Production",
+    "Directing": "Réalisation",
+    "Writing": "Scénario",
+    "Art": "Décors",
+    "Sound": "Son",
+    "Camera": "Image",
+    "Visual Effects": "Effets visuels",
+    "Editing": "Montage",
+    "Costume & Make-up": "Costumes et maquillage",
+    "Lighting": "Éclairage",
+    "Music": "Musique"
+  },
+  "noEncontrado": {
+    "titulo": "Page introuvable",
+    "descripcion": "La page que tu cherches n'existe pas ou a été déplacée."
+  },
+  "footer": {
+    "region": "Pays",
+    "arriba": "Haut de page",
+    "avisoTmdb": "Ce produit utilise l'API de TMDB mais n'est pas approuvé ni certifié par TMDB."
+  }
+}

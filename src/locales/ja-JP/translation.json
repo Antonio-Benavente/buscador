@@ -1,0 +1,122 @@
+{
+  "app": {
+    "titulo": "映画・シリーズ検索"
+  },
+  "comunes": {
+    "cargando": "読み込み中...",
+    "volver": "戻る",
+    "reintentar": "再試行",
+    "inicio": "ホーム",
+    "anterior": "前へ",
+    "siguiente": "次へ",
+    "sinTitulo": "タイトルなし"
+  },
+  "header": {
+    "logo": "Buscador",
+    "buscar": "検索",
+    "peliculas": "映画",
+    "series": "シリーズ",
+    "personas": "Personas",
+    "idioma": "言語",
+    "menu": "メニュー",
+    "navegacion": "メインナビゲーション"
+  },
+  "home": {
+    "enCartelera": "上映中の映画",
+    "proximamente": "公開予定の映画",
+    "peliculasPopulares": "人気の映画",
+    "seriesPopulares": "人気のシリーズ",
+    "heroSubtitulo": "映画・シリーズ・人物を検索したり、いま人気の作品をチェックできます。"
+  },
+  "listas": {
+    "secciones": {
+      "populares": "人気",
+      "enCartelera": "公開中",
+      "proximamente": "近日公開",
+      "mejorValoradas": "高評価",
+      "enEmision": "放送中",
+      "alAireHoy": "今日の放送"
+    }
+  },
+  "busqueda": {
+    "titulo": "検索",
+    "label": "映画、シリーズ、人物を検索",
+    "placeholder": "映画、シリーズ、人物を検索...",
+    "limpiar": "検索をクリア",
+    "error": "検索中にエラーが発生しました。もう一度お試しください。",
+    "recuento_other": "{{count}} 件の検索結果（'{{query}}'）",
+    "sinResultados": "'{{query}}' に一致する結果は見つかりませんでした。",
+    "persona": "人物",
+    "minCaracteres": "検索するには 2 文字以上入力してください。"
+  },
+  "error": {
+    "carga": "データを読み込めませんでした。もう一度お試しください。",
+    "titulo": "問題が発生しました",
+    "descripcion": "予期しないエラーが発生しました。ページを再読み込みするか、ホームに戻ってください。",
+    "recargar": "再読み込み"
+  },
+  "paginacion": {
+    "anterior": "前のページ",
+    "siguiente": "次のページ",
+    "actual": "ページ {{page}} / {{total}}"
+  },
+  "detalles": {
+    "sinImagen": "画像なし",
+    "sinopsis": "あらすじ",
+    "sinSinopsis": "あらすじはありません。",
+    "fechaEstreno": "公開日:",
+    "duracion": "上映時間:",
+    "minutos": "{{min}}分",
+    "primeraEmision": "初回放送日: {{date}}",
+    "ultimaEmision": "最終放送日: {{date}}",
+    "estado": "状態: {{status}}",
+    "temporadas": "シーズン: {{count}}",
+    "episodios": "エピソード: {{count}}",
+    "generos": "ジャンル",
+    "productoras": "制作会社",
+    "paginaOficial": "公式サイト:",
+    "visitar": "訪問する",
+    "verTrailer": "予告編を見る",
+    "sinTrailer": "予告編はありません。",
+    "reparto": "キャスト",
+    "peliculasRecomendadas": "おすすめの映画",
+    "seriesRecomendadas": "おすすめのシリーズ",
+    "trailerDe": "{{title}} の予告編",
+    "cerrarTrailer": "予告編を閉じる",
+    "pelicula": "映画",
+    "serie": "シリーズ",
+    "persona": "Persona",
+    "biografia": "Biografía",
+    "sinBiografia": "No hay biografía disponible.",
+    "fechaNacimiento": "Fecha de nacimiento:",
+    "fechaFallecimiento": "Fecha de fallecimiento:",
+    "lugarNacimiento": "Lugar de nacimiento:",
+    "departamento": "Departamento:",
+    "tambienConocidoComo": "También conocido como:",
+    "creditos": "Créditos"
+  },
+  "departamentos": {
+    "Acting": "出演",
+    "Crew": "スタッフ",
+    "Production": "製作",
+    "Directing": "監督",
+    "Writing": "脚本",
+    "Art": "美術",
+    "Sound": "音響",
+    "Camera": "撮影",
+    "Visual Effects": "視覚効果",
+    "Editing": "編集",
+    "Costume & Make-up": "衣装・メイク",
+    "Lighting": "照明",
+    "Music": "音楽"
+  },
+  "noEncontrado": {
+    "titulo": "ページが見つかりません",
+    "descripcion": "お探しのページは存在しないか、移動されました。"
+  },
+  "footer": {
+    "region": "国",
+    "arriba": "上へ戻る",
+    "avisoTmdb": "このプロダクトは TMDB API を利用していますが、TMDB による承認または認証を受けているわけではありません。"
+  }
+}

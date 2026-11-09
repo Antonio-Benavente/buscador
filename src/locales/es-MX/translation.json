@@ -1,0 +1,124 @@
+{
+  "app": {
+    "titulo": "Buscador de Películas y Series"
+  },
+  "comunes": {
+    "cargando": "Cargando...",
+    "volver": "Volver",
+    "reintentar": "Reintentar",
+    "inicio": "Inicio",
+    "anterior": "Anterior",
+    "siguiente": "Siguiente",
+    "sinTitulo": "Sin título"
+  },
+  "header": {
+    "logo": "Buscador",
+    "buscar": "Buscar",
+    "peliculas": "Películas",
+    "series": "Series",
+    "personas": "Personas",
+    "idioma": "Idioma",
+    "menu": "Menú",
+    "navegacion": "Navegación principal"
+  },
+  "home": {
+    "enCartelera": "Películas en cartelera",
+    "proximamente": "Películas próximamente",
+    "peliculasPopulares": "Películas populares",
+    "seriesPopulares": "Series populares",
+    "heroSubtitulo": "Busca películas, series y personas, o explora lo más popular del momento."
+  },
+  "listas": {
+    "secciones": {
+      "populares": "Populares",
+      "enCartelera": "En cartelera",
+      "proximamente": "Próximamente",
+      "mejorValoradas": "Mejor valoradas",
+      "enEmision": "En emisión",
+      "alAireHoy": "Al aire hoy"
+    }
+  },
+  "busqueda": {
+    "titulo": "Buscar",
+    "label": "Buscar películas, series o personas",
+    "placeholder": "Busca películas, series o personas...",
+    "limpiar": "Limpiar búsqueda",
+    "error": "Ocurrió un error al buscar. Inténtalo de nuevo.",
+    "recuento_one": "{{count}} resultado para '{{query}}'",
+    "recuento_many": "{{count}} resultados para '{{query}}'",
+    "recuento_other": "{{count}} resultados para '{{query}}'",
+    "sinResultados": "No se encontraron resultados para '{{query}}'.",
+    "persona": "Persona",
+    "minCaracteres": "Escribe al menos 2 caracteres para buscar."
+  },
+  "error": {
+    "carga": "No se pudieron cargar los datos. Inténtalo de nuevo.",
+    "titulo": "Algo ha ido mal",
+    "descripcion": "Se ha producido un error inesperado. Puedes recargar la página o volver al inicio.",
+    "recargar": "Recargar"
+  },
+  "paginacion": {
+    "anterior": "Página anterior",
+    "siguiente": "Página siguiente",
+    "actual": "Página actual {{page}} de {{total}}"
+  },
+  "detalles": {
+    "sinImagen": "Sin imagen",
+    "sinopsis": "Sinopsis",
+    "sinSinopsis": "No hay sinopsis disponible.",
+    "fechaEstreno": "Fecha de estreno:",
+    "duracion": "Duración:",
+    "minutos": "{{min}} minutos",
+    "primeraEmision": "Primera emisión: {{date}}",
+    "ultimaEmision": "Última emisión: {{date}}",
+    "estado": "Estado: {{status}}",
+    "temporadas": "Temporadas: {{count}}",
+    "episodios": "Episodios: {{count}}",
+    "generos": "Géneros",
+    "productoras": "Productoras",
+    "paginaOficial": "Página oficial:",
+    "visitar": "Visitar",
+    "verTrailer": "Ver tráiler",
+    "sinTrailer": "No hay tráiler disponible.",
+    "reparto": "Reparto",
+    "peliculasRecomendadas": "Películas recomendadas",
+    "seriesRecomendadas": "Series recomendadas",
+    "trailerDe": "Tráiler de {{title}}",
+    "cerrarTrailer": "Cerrar tráiler",
+    "pelicula": "Película",
+    "serie": "Serie",
+    "persona": "Persona",
+    "biografia": "Biografía",
+    "sinBiografia": "No hay biografía disponible.",
+    "fechaNacimiento": "Fecha de nacimiento:",
+    "fechaFallecimiento": "Fecha de fallecimiento:",
+    "lugarNacimiento": "Lugar de nacimiento:",
+    "departamento": "Departamento:",
+    "tambienConocidoComo": "También conocido como:",
+    "creditos": "Créditos"
+  },
+  "departamentos": {
+    "Acting": "Actuación",
+    "Crew": "Equipo técnico",
+    "Production": "Producción",
+    "Directing": "Dirección",
+    "Writing": "Guion",
+    "Art": "Arte",
+    "Sound": "Sonido",
+    "Camera": "Fotografía",
+    "Visual Effects": "Efectos visuales",
+    "Editing": "Montaje",
+    "Costume & Make-up": "Vestuario y maquillaje",
+    "Lighting": "Iluminación",
+    "Music": "Música"
+  },
+  "noEncontrado": {
+    "titulo": "Página no encontrada",
+    "descripcion": "La página que buscas no existe o fue movida."
+  },
+  "footer": {
+    "region": "País",
+    "arriba": "Volver arriba",
+    "avisoTmdb": "Este producto utiliza la API de TMDB, pero no está respaldado ni certificado por TMDB."
+  }
+}
