@@ -1,5 +1,6 @@
 .hero {
-  min-height: 85vh;
+  min-height: clamp(420px, 62vh, 620px);
+  padding-block: 40px;
 
   display: flex;
   align-items: center;
